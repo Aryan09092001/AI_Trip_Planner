@@ -25,7 +25,7 @@ st.header("Happy to help plan an amazing trip! Just share the destination of cho
 
 # Chat input box at bottom
 with st.form(key="query_form", clear_on_submit=True):
-    user_input = st.text_input("User Input", placeholder="e.g. Plan a trip to New York for 5 days")
+    user_input = st.text_input("User Input", placeholder="e.g. Plan a trip to Boston for 10 days")
     submit_button = st.form_submit_button("Send")
 
 if submit_button and user_input.strip():
